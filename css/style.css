@@ -613,6 +613,7 @@ a.nav-link {
 
 .navmen {
     width: 32px;
+    border-radius: 50%;
 }
 
 /* Dropdown 1 */
@@ -2185,12 +2186,14 @@ input:checked+.slider:before {
 .footerlogosm i {
     font-size: 20px;
     color: black;
-    margin: 0 12px;
+    padding: 12px;
     transition: 0.4s;
+    border-radius: 50%;
 }
 
 .footerlogosm i:hover {
-    color: #cdac61;
+    color: white;
+    background: #cdac61;
 }
 
 .footerlogosm i:last-child {
