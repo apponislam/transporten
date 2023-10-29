@@ -1929,6 +1929,10 @@ input:checked+.slider:before {
 
 /* Mobile services */
 
+.section5 {
+    overflow: hidden;
+}
+
 .mobileservicesmain {
     width: 100%;
     height: 100vh;
@@ -2809,6 +2813,10 @@ input:checked+.slider:before {
     }
 
     /* ************Mobile services************ */
+
+    .section5 {
+        overflow: inherit;
+    }
 
     .discoverservices {
         display: grid;
