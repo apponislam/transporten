@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Full Body */
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Preloader */
+
+#preloader {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999999999999;
+}
+
+.preloaderitems {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.loaderlogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prelogo {
+    width: 336px;
+    margin-bottom: 42px;
+}
+
+.loadericon {
+    width: 44px;
+    display: block;
+    margin: 0 auto;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.preloaderbtm {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+}
+
+.preloaderbtmm h6 {
+    font-size: 400;
+    font-size: 10px;
+    color: rgba(60, 60, 67, 0.6);
+    margin-bottom: 16px;
+}
+
+.preloaderbtmm img {
+    width: 88px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.preloaderbtm p {
+    font-size: 400;
+    font-size: 10px;
+    color: rgba(60, 60, 67, 0.6);
+}
+
+/* Header */
+
+.mainnav {
+    padding: 30px 0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+}
+
+.govtajman {
+    width: 88px;
+}
+
+/* Maintenance Body */
+
+.maintenance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.maintenance img {
+    width: 92px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.maintenance h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.maintenance p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.social {
+    width: 413px;
+    height: 65px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.social i {
+    font-size: 20px;
+    color: white;
+    margin: 0 8px;
+}
+
+.social p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.twitterm {
+    background-color: #000000;
+}
+
+.facebookm {
+    background-color: #007aff;
+}
+
+.linkedinm {
+    background-color: #0072b1;
+}
+
+.instragramm {
+    background-color: #e1306c;
+}
+
+.youtubem {
+    background-color: #c4302b;
+}
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width:1700px) {}
+
+
+@media screen and (max-width:1500px) {}
+
+
+@media screen and (max-width:1400px) {}
+
+
+@media screen and (max-width:1300px) {}
+
+
+@media screen and (max-width:991px) {}
+
+
+@media screen and (max-width:768px) {
+
+    .maintenance p {
+        font-size: 14px;
+        margin-bottom: 26px;
+    }
+
+    .social p {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+
+
+    /* ************Preloader************ */
+
+    .prelogo {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .loadericon {
+        width: 40px;
+    }
+
+    .preloaderbtm {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        text-align: center;
+    }
+
+    .preloaderbtm p br {
+        display: none;
+    }
+
+    .maintenance p br {
+        display: none;
+    }
+
+    .social {
+        width: 300px;
+        height: 65px;
+        margin-bottom: 16px;
+    }
+
+}
