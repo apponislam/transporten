@@ -598,11 +598,14 @@ a.nav-link {
 /* Header Popup 1 End */
 
 .navbtn2 {
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #f2f3f5;
     border-radius: 24px;
-    padding: 8px 16px;
+    padding: 0;
     margin: 0 4px;
 }
 
