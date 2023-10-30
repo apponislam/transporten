@@ -189,6 +189,33 @@ a.nav-link {
 
 .menupopupitems {
     padding: 48px 80px 32px;
+    position: relative;
+}
+
+.popup1close2 {
+    display: inline-block !important;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    left: unset !important;
+}
+
+.popup1close {
+    width: 48px;
+    height: 48px;
+    background: #f2f2f7;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup1close i {
+    color: #616163;
+    font-size: 14px;
 }
 
 .menupopupitems h1 {
@@ -902,7 +929,7 @@ input:checked+.slider:before {
 /* Header Popup 2 End */
 
 .govtlogo {
-    width: 88px;
+    width: 108px;
     margin-left: 20px;
 }
 
@@ -1237,6 +1264,10 @@ input:checked+.slider:before {
 
     .menupopupbtm2 {
         display: flex;
+    }
+
+    .popup1close2 {
+        display: none !important;
     }
 
     /* ************Error************ */
